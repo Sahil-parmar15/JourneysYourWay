@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.package-list {
+    width: 90%; /* Increased width */
+    margin: 20px auto;
+}
+
+.package {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Increased space between packages */
+    padding: 20px; /* Increased padding */
+    width: 100%; /* Make the package take the full width */
+}
+
+.package img {
+    width: 300px; /* Increased image width */
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-info {
+    flex-grow: 1;
+    padding: 0 30px; /* Increased padding */
+}
+
+.package-info h2 {
+    margin: 0;
+    font-size: 22px; /* Increased font size */
+    color: #28a745;
+}
+
+.package-info p {
+    margin: 10px 0;
+    font-size: 16px; /* Increased font size */
+    color: #555;
+}
+
+.package-price {
+    text-align: right;
+}
+
+.package-price p {
+    font-size: 24px; /* Increased price font size */
+    font-weight: bold;
+    color: #333;
+}
+
+.details-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased button size */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased button font size */
+}
+
+.details-btn:hover {
+    background-color: #218838;
+}
